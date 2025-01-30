@@ -12,7 +12,8 @@
 name = "Kawsar"
 print(type(name))
 
-
+length = len(name)
+print(length)
 
 
 
