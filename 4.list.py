@@ -3,7 +3,7 @@
 # 2D list
 
 
-
+# 1D List
 friends = ['Kawsar', 'Samim', 'Imran', 'Delowar', 'Fahad']
 # print(friends)
 
@@ -28,10 +28,23 @@ last_friend = friends[friends_size -1]
 
 
 # direct value access without range
-for name in friends:
-    print(name)
+# for name in friends:
+#     print(name)
 
 
+
+# 2D List
+demo_var = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# for row in range(len(demo_var)):
+#     for col in range(len(demo_var[row])):
+#         # print(demo_var[row][col])
+#         print(row, col)
+
+
+# without index iterate
+for row in demo_var:
+    for col in row:
+        print(col)
 
 
 
